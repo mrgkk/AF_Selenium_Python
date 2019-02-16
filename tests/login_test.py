@@ -33,7 +33,7 @@ class TestLogin():
             screenshotName = testName+"_"+currTime
             allure.attach(self.driver.get_screenshot_as_png(),name=screenshotName,
                           attachment_type=allure.attachment_type.PNG)
-            driver.get_screenshot_as_file("C:/Users/krishna/PycharmProjects/AF_1/screenshots/" + screenshotName + ".png")
+            #driver.get_screenshot_as_file("C:/Users/krishna/PycharmProjects/AF_1/screenshots/" + screenshotName + ".png")
             raise
 
         except:

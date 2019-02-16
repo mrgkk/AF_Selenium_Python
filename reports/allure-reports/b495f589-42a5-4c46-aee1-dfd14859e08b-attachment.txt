@@ -1,0 +1,4 @@
+Logout Function executed without exceptions
+Close all DB connections or free objects
+End of Logout Function
+Login Test Completed

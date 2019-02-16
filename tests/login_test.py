@@ -1,7 +1,7 @@
 from selenium import webdriver
 import pytest
 import allure
-import moment
+#import moment
 from pages.loginPage import LoginPage
 from pages.homePage import HomePage
 from utils import utils as utils
